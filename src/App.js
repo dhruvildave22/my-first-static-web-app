@@ -1,8 +1,8 @@
 import React from 'react';
+import Card from './components/Card';
 
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+  return <Card />;
 }
 
 export default App;
